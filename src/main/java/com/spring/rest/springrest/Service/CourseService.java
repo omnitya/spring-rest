@@ -25,4 +25,6 @@ public interface CourseService {
 	public Course updateCourse(Long courseId, Course course);
 	
 	public void deleteCourse(Long courseId) throws ResourceNotAvailableExcpetion;
+	
+	public void saveHealthStatus(String metodCalled);
 }
